@@ -1,0 +1,39 @@
+.trusted-by {
+    background-color: #E7E7E7;
+}
+
+.trusted-by-text {
+    color: #BEBEBE;
+    font-weight: 600;
+}
+
+.trusted-by .flex > * + * {
+    margin-left: 16px;
+}
+
+.description {
+    color: #AEAEAE;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.button {
+    color: #21AFD4;
+    background-color: #FFFFFF;
+    border: 1px solid #70CBE3;
+    outline: 1px solid #70CBE3;
+    margin-top: 25px;
+}
+.custom-text-color {
+    color: #13C2DE;
+    margin-right: 10px;
+}
+.custom-arrow {
+    color: #70CBE3;
+}

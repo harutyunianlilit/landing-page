@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Footer Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .footer {
+            background-color: #FFFFFF;
+        }
+
+        .footer h3 {
+            color: #98ADB4;
+        }
+
+        .footer ul li {
+            color: #CACFD5;
+        }
+
+        .newsletter {
+            display: flex;
+            align-items: center;
+        }
+
+        .newsletter input[type="text"] {
+            margin-left: 8px;
+        }
+
+        .newsletter button {
+            background-color: #FFFFFF;
+            color: #70CBE3;
+            border-color: #70CBE3;
+        }
+
+        .social-icons {
+            display: flex;
+            margin-top: 8px;
+            margin-left: auto; /* Move icons to the right */
+        }
+
+        .social-icons a {
+            margin-right: 12px;
+            margin-left: 2px;
+            color: #70CBE3;
+            font-size: 1.5rem;
+        }
+
+        .copyright {
+            color: #98ADB4;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="footer mt-8">
+        <div class="container mx-auto py-4">
+            <div class="flex">
+                <div class="grid grid-cols-4 space-x-2">
+                    <div>
+                        <h3>Foscam</h3>
+                        <ul>
+                            <li>Company</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms and Conditions</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Resources</h3>
+                        <ul>
+                            <li>Firmware Downloads</li>
+                            <li>Software Tools and Setup Guides</li>
+                            <li>User Manuals</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Account</h3>
+                        <ul>
+                            <li>My Account</li>
+                            <li>My Card</li>
+                            <li>Cloud</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>FAQ</h3>
+                        <ul>
+                            <li>Shipping FAQ</li>
+                            <li>Shopping FAQ</li>
+                            <li>Warranty</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ml-4">
+                    <h3>Subscribe to our newsletter:</h3>
+                    <div class="newsletter">
+                        <input type="text" placeholder="Your Email Address" class="border border-gray-300 rounded px-3 py-1">
+                        <button class="ml-2 px-4 py-2 bg-white text-70CBE3 font-bold rounded border border-70CBE3">Submit</button>
+                    </div>
+                    <div class="social-icons mt-2">
+                        <a href="#" class="ml-2"><i class="fab fa-facebook text-2xl"></i></a>
+                        <a href="#" class="ml-2"><i class="fab fa-twitter text-2xl"></i></a>
+                        <a href="#" class="ml-2"><i class="fab fa-linkedin-in text-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto py-4 text-sm ">
+            <p class="copyright">© 2017 Foscam Inc. All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+

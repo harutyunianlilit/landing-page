@@ -1,0 +1,10 @@
+<div class="slider-container">
+    <div *ngFor="let slide of slides; let i = index" class="slide" [hidden]="i !== currentSlideIndex">
+      {{ slide }}
+    </div>
+  </div>
+  <div class="slider-dots">
+    <span *ngFor="let slide of slides; let i = index" class="slider-dot" [class.active]="i === currentSlideIndex" (click)="goToSlide(i)"></span>
+  </div>
+  
+  
